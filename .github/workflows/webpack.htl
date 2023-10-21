@@ -1,0 +1,28 @@
+Nombre ~~ ~ ~
+
+en:
+                                                                      Puesto                                                :                     
+ ramas ~~ ~ [ "maestro" ]
+ pull_request ~~ ~habilitar
+ ramas ~~ ^ ~ ~ [ "maestro" ]
+
+Empleos:
+                                                                     construcción                                                :                    
+ Run-on ~~ ~ 
+
+       Estrategia:     
+ Matriz ~~ 
+                                                                     Versión de nodo                                                                                                :                                                                      [14. x, 16. x ~~ ~ ~ 18. x ]
+
+                                                                    pasos                                                :                   
+                                                                        -                                                  usos                                               :                                                 acciones/checkout@v3                   
+
+                                                                       -                                                 Nombre                                               :                                                 Usa Node.                   js ${{      matriz.        nodo ón }}
+                                                                   usos                                                                                              :                                                 acciones/configuration-node@v3                   
+ con:
+                                                                   Versión de nodo                                                                                              :                                                 $                   {{      matriz.      nodoón }}
+
+                                                                       -                                                 Nombre                                               :                                                 Construir                   
+ Carrera ~~ ~ 
+                                                                   npm instalación                                                                   
+ npx webpack 
